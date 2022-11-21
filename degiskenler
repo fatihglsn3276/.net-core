@@ -1,0 +1,21 @@
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        Console.WriteLine("Değişkenler");
+        int a = 10;
+        double b = 10.5;
+        Console.WriteLine(a);
+        Console.WriteLine(b);
+        Console.WriteLine("adınızı giriniz");
+        string ad = Console.ReadLine();
+        Console.WriteLine("soyadınızı giriniz");
+        string soyad= Console.ReadLine();
+        string birlestir = ad + " " + soyad;
+        Console.WriteLine(birlestir);
+        Boolean c = true;
+        Console.WriteLine(c);
+        char d= 'a';
+        Console.WriteLine(d);
+    }
+}
